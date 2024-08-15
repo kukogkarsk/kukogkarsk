@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuk og Karsk</title>
+    <script>
+
+
+    window.onload = oppstart;
+    
+    function oppstart() {
+        scaryMusic = new Audio('kukogkarsktheme.mp3');
+    }
+    function playOST() {
+        scaryMusic.play();
+    }
+
+    function totalBullshit() {
+        titleBullshit();
+        setInterval(playOST, 1);
+    }
+
+
+    function removeItself() {
+        document.getElementById("btnID").outerHTML = "";
+        playOST();
+    }
+
+    
+    </script>
+    <style id="background">
+
+        @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+        #btnID {
+            font-size: 50px;
+        }
+        .biggerText {
+            font-size: 400%;
+        }
+        .bigText {
+            font-size: 300%;
+        }
+
+        body {
+            background-image: url('Place_of_worship.png');
+            background-repeat: repeat;
+            background-size: cover;
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        
+        h1 {
+            color: lightblue;
+            -webkit-text-stroke-color: black;
+            -webkit-text-stroke-width: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="biggerText">Knapper Kuk og Karsk</h1>
+        <h1 class="bigText">Grunnlagt av Storm Nilas Holseth</h1>
+        <button onclick=removeItself(); id="btnID">CLICK ME!</button>
+    </center>
+</body>
+</html>
