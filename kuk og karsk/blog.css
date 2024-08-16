@@ -1,0 +1,233 @@
+/* BODY AND HEADER */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #66ab8f;
+}
+
+header {
+    border: 5px black;
+    background-color: #007845;
+    color: #007845;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    transform: translate(0%)
+}
+
+/* INFORMATION BOX 1 */
+
+.text_square1 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.square1_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -400px;
+    color: #fff;
+}
+
+.square1_text_2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -50px;
+    color: #fff;
+}
+
+.list_item1 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas1 img { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+    box-shadow: 2px 2px 4px #686869;
+}
+
+.list_item2 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas2 img { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+    box-shadow: 2px 2px 4px #686869;
+}
+
+.list_item3 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas3 img { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+    box-shadow: 2px 2px 4px #686869;
+}
+
+.list_item4 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas4 video { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+    
+}
+
+.list_item5 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas5 video { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+
+}
+
+.list_item6 { 
+    width: 1600px;
+    height: 400px;
+    background-color: #007845;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 8px #686869;
+}
+
+.niklas6 video { 
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
+    align-self: center;
+
+}
+
+/* MISCELLANEOUS - ASSOCIATED WITH DROPDOWN BAR AND SUCH */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #60d394;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    max-height: 200px; 
+}
+
+.dropdown-content li a {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content li a img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.dropdown-content li a span {
+    margin-left: 10px; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hyperspace {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10000px;
+    line-height: 1.75;
+    transform: translate(0%)
+}
